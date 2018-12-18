@@ -32,7 +32,7 @@ h2{
     font-weight: bold;
     font-family: arial,helvetica,sans-serif;
     font-size: 15px;
-	  display: inline-block;
+	  display: inline;
     width: 960px;
 }
 h2 a{
@@ -55,6 +55,7 @@ h2 a{
   width: 960px;
   margin: 0 auto;
   list-style: none;
+  display: table;
 }
 
 .menu span {
@@ -92,6 +93,7 @@ p {
     font-size: 14px;
 }*/
 table {
+  width: 100%;
   font-family:	Verdana, Arial, Helvetica, serif;
   text-align:		left;
   color: #333;
@@ -350,5 +352,5 @@ td.checkbox {
     font-size:		80%;
 }
 .right{
-	float: right;
+	float: right !important;
 }
